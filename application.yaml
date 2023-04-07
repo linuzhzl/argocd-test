@@ -9,7 +9,6 @@ spec:
   source:
     repoURL: https://github.com/linuzhzl/argocd-test.git
     targetRevision: HEAD
-    path: /
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
