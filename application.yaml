@@ -11,7 +11,7 @@ spec:
     targetRevision: HEAD
     path: ./
   destination: 
-    server: https://kubernetes.default.svc
+    server: https://apiserver-bduqxwjs.c.kubesphere.cloud:30443
     namespace: myapp
 
   syncPolicy:
